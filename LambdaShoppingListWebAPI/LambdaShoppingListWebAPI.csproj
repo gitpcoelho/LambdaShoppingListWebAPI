@@ -6,6 +6,9 @@
     <UserSecretsId>fede3908-a13b-4f08-aa0b-927e4bdbf325</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="aws-lambda-tools-defaults.json" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="AWSSDK.S3" Version="3.3.102.15" />
     <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.100.1" />
