@@ -341,4 +341,4 @@ ASALocalRun/
 healthchecksdb
 
 # AWS settings
-aws-lambda-tools-defaults.json
+./LambdaShoppingListWebAPI/aws-lambda-tools-defaults.json
