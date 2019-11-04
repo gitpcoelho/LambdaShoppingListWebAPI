@@ -1,3 +1,11 @@
+To experiment, use the following API Key (limited resources to 100 requests)
+
+header: x-api-key
+value: ADTuShxfHW85kcW3od2jv1WTd2bDX1jfaj6ES6hQ
+
+https://dktxehgrr9.execute-api.eu-west-1.amazonaws.com/Prod/v1/shoppingList
+
+
 # ASP.NET Core Web API Serverless Application
 
 This project shows how to run an ASP.NET Core Web API project as an AWS Lambda exposed through Amazon API Gateway. The NuGet package [Amazon.Lambda.AspNetCoreServer](https://www.nuget.org/packages/Amazon.Lambda.AspNetCoreServer) contains a Lambda function that is used to translate requests from API Gateway into the ASP.NET Core framework and then the responses from ASP.NET Core back to API Gateway.
